@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="t_vga_v1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|vga_v1:VGACtrl|t_vga_v1:VGAController|t_vga_v1_FIFO_dual_clock:fifo_dual_clock|dcfifo:Data_FIFO" CBX_FILE_NAME="dcfifo_5oj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|vga_v1:VGACtrl|t_vga_v1:VGAController|t_vga_v1_jtag_uart_0:jtag_uart_0|t_vga_v1_jtag_uart_0_scfifo_r:the_t_vga_v1_jtag_uart_0_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|vga_v1:VGACtrl|t_vga_v1:VGAController|t_vga_v1_pixel_buffer:pixel_buffer|scfifo:Image_Buffer" CBX_FILE_NAME="scfifo_vv91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|vga_v1:VGACtrl|t_vga_v1:VGAController|t_vga_v1_ram_onchip_memory:ram_onchip_memory|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_86d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|vga_v1:VGACtrl|t_vga_v1:VGAController|t_vga_v1_cpu_v1:cpu_v1|t_vga_v1_cpu_v1_nios2_oci:the_t_vga_v1_cpu_v1_nios2_oci|t_vga_v1_cpu_v1_nios2_ocimem:the_t_vga_v1_cpu_v1_nios2_ocimem|t_vga_v1_cpu_v1_ociram_sp_ram_module:t_vga_v1_cpu_v1_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_gn71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|vga_v1:VGACtrl|t_vga_v1:VGAController|t_vga_v1_cpu_v1:cpu_v1|t_vga_v1_cpu_v1_register_bank_a_module:t_vga_v1_cpu_v1_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_cag1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|vga_v1:VGACtrl|t_vga_v1:VGAController|t_vga_v1_cpu_v1:cpu_v1|t_vga_v1_cpu_v1_register_bank_b_module:t_vga_v1_cpu_v1_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_dag1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|vga_v1:VGACtrl|t_vga_v1:VGAController|t_vga_v1_jtag_uart_0:jtag_uart_0|t_vga_v1_jtag_uart_0_scfifo_w:the_t_vga_v1_jtag_uart_0_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,17 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.version,sysinfo,,,"1.6.0_23-b05",1447253282691
+java.specification.name,sysinfo,,,"Java Platform API Specification",1447253282691
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1447253282691
+java.specification.version,sysinfo,,,"1.6",1447253282691
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1447253282691
+java.version,sysinfo,,,"1.6.0_23",1447253282691
+java.vm.info,sysinfo,,,"mixed mode",1447253282691
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1447253282691
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1447253282691
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1447253282691
+java.vm.specification.version,sysinfo,,,"1.0",1447253282691
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1447253282691
+java.vm.version,sysinfo,,,"19.0-b09",1447253282691
+started,bundle,com.altera.sbtgui.launch,13.13.0.132,"com.altera.sbtgui.launch",1447253282816
+started,bundle,org.eclipse.epp.usagedata.ui,1.3.1.R201106061540,"org.eclipse.epp.usagedata.ui",1447253283784
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1447253284251

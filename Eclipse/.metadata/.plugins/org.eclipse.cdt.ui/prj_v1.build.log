@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project prj_v1 ****
+
+make all 
+Info: Building ../prj_v1_bsp/
+make --no-print-directory -C ../prj_v1_bsp/
+[BSP build complete]
+[prj_v1 build complete]
+
+**** Build Finished ****

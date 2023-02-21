@@ -1,0 +1,4 @@
+#Mon Nov 23 21:53:38 ICT 2015
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=asm

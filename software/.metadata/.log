@@ -1,0 +1,23 @@
+!SESSION 2016-05-06 18:21:27.996 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -data D:\2.SET\1.Doc\Nam4\Sem1\ThietKeTongHopICSo\1.Project\ICSo\Tuyen\tuyen_vga_v1\software -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-06 18:25:48.824
+!MESSAGE Indexed 'v2_bsp' (79 sources, 58 headers) in 0.97 sec: 1,121 declarations; 3,172 references; 115 unresolved inclusions; 5 syntax errors; 202 unresolved names (4.49%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-06 18:26:02.700
+!MESSAGE Indexed 'v2' (1 sources, 13 headers) in 0.03 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2016-07-19 15:52:40.720 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -data D:\2.SET\1.Doc\Nam4\Sem1\ThietKeTongHopICSo\1.Project\ICSo\Tuyen\tuyen_vga_v1\software -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-07-19 15:52:41.750
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

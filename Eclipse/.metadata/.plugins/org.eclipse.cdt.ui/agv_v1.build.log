@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project agv_v1 ****
+
+make all 
+Info: Building ../agv_v1_bsp/
+make --no-print-directory -C ../agv_v1_bsp/
+[BSP build complete]
+[agv_v1 build complete]
+
+**** Build Finished ****

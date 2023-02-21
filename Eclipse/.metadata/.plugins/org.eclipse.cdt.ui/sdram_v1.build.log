@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project sdram_v1 ****
+
+make all 
+Info: Building ../sdram_v1_bsp/
+make --no-print-directory -C ../sdram_v1_bsp/
+[BSP build complete]
+[sdram_v1 build complete]
+
+**** Build Finished ****

@@ -1,0 +1,37 @@
+
+**** Build of configuration Nios II for project soft_v4 ****
+
+make all 
+Info: Building ../soft_v4_bsp/
+make --no-print-directory -C ../soft_v4_bsp/
+[BSP build complete]
+Info: Compiling temp_v4.c to obj/default/temp_v4.o
+nios2-elf-gcc -xc -MP -MMD -c -I../soft_v4_bsp//HAL/inc -I../soft_v4_bsp/ -I../soft_v4_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/temp_v4.o temp_v4.c
+Info: Linking soft_v4.elf
+nios2-elf-g++  -T'../soft_v4_bsp//linker.x' -msys-crt0='../soft_v4_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../soft_v4_bsp/  -Wl,--defsym,exit=_exit -msmallc  -Wl,-Map=soft_v4.map   -Os -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o soft_v4.elf obj/default/hello_world_small.o obj/default/temp_v4.o -lm 
+obj/default/temp_v4.o: In function `display':
+D:\Prj\ICSo\Tuyen\tuyen_vga_v1\software\soft_v4/temp_v4.c:98: multiple definition of `display'
+obj/default/hello_world_small.o:D:\Prj\ICSo\Tuyen\tuyen_vga_v1\software\soft_v4/hello_world_small.c:98: first defined here
+obj/default/temp_v4.o: In function `dispImage':
+D:\Prj\ICSo\Tuyen\tuyen_vga_v1\software\soft_v4/temp_v4.c:113: multiple definition of `dispImage'
+obj/default/hello_world_small.o:D:\Prj\ICSo\Tuyen\tuyen_vga_v1\software\soft_v4/hello_world_small.c:113: first defined here
+obj/default/temp_v4.o: In function `makeOutput':
+D:\Prj\ICSo\Tuyen\tuyen_vga_v1\software\soft_v4/temp_v4.c:129: multiple definition of `makeOutput'
+obj/default/hello_world_small.o:D:\Prj\ICSo\Tuyen\tuyen_vga_v1\software\soft_v4/hello_world_small.c:129: first defined here
+obj/default/temp_v4.o: In function `main':
+D:\Prj\ICSo\Tuyen\tuyen_vga_v1\software\soft_v4/temp_v4.c:149: multiple definition of `main'
+obj/default/hello_world_small.o:D:\Prj\ICSo\Tuyen\tuyen_vga_v1\software\soft_v4/hello_world_small.c:149: first defined here
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/bin/ld.exe: address 0x103c of soft_v4.elf section `.text' is not within region `ram_onchip_memory'
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/bin/ld.exe: address 0x10e0 of soft_v4.elf section `.rodata' is not within region `ram_onchip_memory'
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/bin/ld.exe: address 0x11a8 of soft_v4.elf section `.rwdata' is not within region `ram_onchip_memory'
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/bin/ld.exe: address 0x1280 of soft_v4.elf section `.bss' is not within region `ram_onchip_memory'
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/bin/ld.exe: address 0x1280 of soft_v4.elf section `.ram_onchip_memory' is not within region `ram_onchip_memory'
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/bin/ld.exe: address 0x103c of soft_v4.elf section `.text' is not within region `ram_onchip_memory'
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/bin/ld.exe: address 0x10e0 of soft_v4.elf section `.rodata' is not within region `ram_onchip_memory'
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/bin/ld.exe: address 0x11a8 of soft_v4.elf section `.rwdata' is not within region `ram_onchip_memory'
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/bin/ld.exe: address 0x1280 of soft_v4.elf section `.bss' is not within region `ram_onchip_memory'
+c:/altera/13.0sp1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/bin/ld.exe: address 0x1280 of soft_v4.elf section `.ram_onchip_memory' is not within region `ram_onchip_memory'
+collect2: ld returned 1 exit status
+make: *** [soft_v4.elf] Error 1
+
+**** Build Finished ****

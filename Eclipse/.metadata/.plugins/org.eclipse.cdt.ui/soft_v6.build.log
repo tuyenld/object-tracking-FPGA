@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project soft_v6 ****
+
+make all 
+Info: Building ../soft_v6_bsp/
+make --no-print-directory -C ../soft_v6_bsp/
+[BSP build complete]
+[soft_v6 build complete]
+
+**** Build Finished ****

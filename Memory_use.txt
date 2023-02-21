@@ -1,0 +1,34 @@
+Info: (soft_v4.elf) 2004 Bytes program size (code + initialized data).
+Info:               1892 Bytes free for stack + heap.
+Info: Creating soft_v4.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source soft_v4.elf >soft_v4.objdump
+[soft_v4 build complete]
+
+
+Wl,-Map=soft_v4.map   -Os -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o soft_v4.elf obj/default/hello_world_small.o -lm 
+nios2-elf-insert soft_v4.elf --thread_model hal --cpu_name cpu_v1 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name t_vga_v1 --quartus_project_dir "D:/Prj/ICSo/Tuyen/tuyen_vga_v1" --sopcinfo D:/Prj/ICSo/Tuyen/tuyen_vga_v1/t_vga_v1.sopcinfo
+Info: (soft_v4.elf) 2180 Bytes program size (code + initialized data).
+Info:               1716 Bytes free for stack + heap.
+Info: Creating soft_v4.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source soft_v4.elf >soft_v4.objdump
+[soft_v4 build complete]
+
+**** Build Finished ***
++++++++++ change dt_f_nios == 8'hFF  => dt_f_nios[0] == 1'b1 =======
+Flow Status	Successful - Sat Nov 14 16:26:09 2015
+Quartus II 64-Bit Version	13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name	t_vga_v1
+Top-level Entity Name	top_module
+Family	Cyclone II
+Device	EP2C20F484C7
+Timing Models	Final
+Total logic elements	4,366 / 18,752 ( 23 % )
+Total combinational functions	3,984 / 18,752 ( 21 % )
+Dedicated logic registers	2,601 / 18,752 ( 14 % )
+Total registers	2669
+Total pins	133 / 315 ( 42 % )
+Total virtual pins	0
+Total memory bits	46,336 / 239,616 ( 19 % )
+Embedded Multiplier 9-bit elements	0 / 52 ( 0 % )
+Total PLLs	1 / 4 ( 25 % )
+***************************************************************

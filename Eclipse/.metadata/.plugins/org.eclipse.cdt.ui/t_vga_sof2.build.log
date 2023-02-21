@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project t_vga_sof2 ****
+
+make all 
+Info: Building ../t_vga_sof2_bsp/
+make --no-print-directory -C ../t_vga_sof2_bsp/
+[BSP build complete]
+[t_vga_sof2 build complete]
+
+**** Build Finished ****

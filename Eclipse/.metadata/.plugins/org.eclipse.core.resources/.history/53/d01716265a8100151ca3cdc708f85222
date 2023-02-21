@@ -1,0 +1,53 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include "alt_types.h"
+#include "system.h"
+#include <stdio.h>
+volatile alt_u16* sram = (alt_u16*) SRAM_512_BASE;
+short* dram = (short*) SDRAM_CONTROLLER_BASE;
+volatile alt_8* flash = (alt_8*) ALTERA_UP_FLASH_MEMORY_IP_CORE_AVALON_INTERFACE_0_FLASH_DATA_BASE;
+int main() {
+	char flag;
+	int i;
+	volatile alt_u16 temp8_l;
+	volatile alt_u16 temp8_h;
+	volatile alt_u16 temp16;
+	//asm("Nope");
+	printf("Hello World from Nios II!\n");
+
+//	printf(" From SRAM...\n");
+//	for (i = 0; i < 153605; i++) {
+//		temp = *(sram + i);
+//		if (temp != 0x7B7B)
+//			printf("SRAM [%d] = %x\n", i, temp);
+//	}
+//	printf("==> END SRAM <==\n");
+	printf("Press any key to continue...");
+	flag = getchar();
+	printf("Begin Flashing...\n");
+	for (i = 0; i < 307200; i++) {
+		temp8_l = *(flash + i);
+		temp8_h = *(flash + i + 1);
+		temp16 = (temp8_h<<8) + temp8_l;
+		*(sram + i % 2) = temp16;
+		i++;
+//		if (temp != 0x7B)
+//			printf("Flash [%d] = %x\n", i, temp);
+	}
+	printf("==> END Flash <==");
+	return 0;
+}

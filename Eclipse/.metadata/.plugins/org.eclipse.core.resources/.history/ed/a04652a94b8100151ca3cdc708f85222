@@ -1,0 +1,35 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include "alt_types.h"
+#include "system.h"
+#include <stdio.h>
+short* sram = (short*) SRAM_512_BASE;
+short* dram = (short*) SDRAM_CONTROLLER_BASE
+int main() {
+	int i;
+	alt_u16 temp;
+
+	//asm("Nope");
+	printf("Hello World from Nios II!\n");
+	for (i = 0; i < 153605; i++){
+		temp = *(dram + i);
+		if (temp != 0x7B7B)
+			printf("DRAM [%d] = %x\n", i, temp );
+	}
+	printf("==> END <==");
+	return 0;
+}

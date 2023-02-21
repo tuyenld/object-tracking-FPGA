@@ -1,0 +1,43 @@
+D:/Prj/ICSo/Tuyen/tuyen_vga_v1/edge_detec.v {1 {vlog -work work D:/Prj/ICSo/Tuyen/tuyen_vga_v1/edge_detec.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module edge_detec
+
+Top level modules:
+	edge_detec
+
+} {} {}} E://test_clk.v {1 {vlog -work work E:/test_clk.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_clk
+
+Top level modules:
+	test_clk
+
+} {} {}} D:/Prj/ICSo/Tuyen/tuyen_vga_v1/filter_medium.v {1 {vlog -work work D:/Prj/ICSo/Tuyen/tuyen_vga_v1/filter_medium.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module filter_medium
+
+Top level modules:
+	filter_medium
+
+} {} {}} D:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/edge_detec.vt {1 {vlog -work work D:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/edge_detec.vt
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module edge_detec_vlg_tst
+
+Top level modules:
+	edge_detec_vlg_tst
+
+} {} {}} E://test_clk_tb.v {1 {vlog -work work E:/test_clk_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test_clk_tb
+
+Top level modules:
+	test_clk_tb
+
+} {} {}} D:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/filter_medium.vt {1 {vlog -work work D:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/filter_medium.vt
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module filter_medium_vlg_tst
+
+Top level modules:
+	filter_medium_vlg_tst
+
+} {} {}}

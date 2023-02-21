@@ -1,0 +1,119 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vedge_detec
+Z1 !s100 6[IKQWCYD=e:gLhIX_9073
+Z2 IRVFig@[m]XPLY^>:lMEc71
+Z3 V1HmEINLQk=e2n1[=WNLRz0
+Z4 dD:\Prj\ICSo\Tuyen\tuyen_vga_v1\ModelSim
+Z5 w1447924959
+Z6 8D:/Prj/ICSo/Tuyen/tuyen_vga_v1/edge_detec.v
+Z7 FD:/Prj/ICSo/Tuyen/tuyen_vga_v1/edge_detec.v
+L0 3
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/Prj/ICSo/Tuyen/tuyen_vga_v1/edge_detec.v|
+Z10 o-work work -O0
+Z11 !s108 1449040746.874000
+Z12 !s107 D:/Prj/ICSo/Tuyen/tuyen_vga_v1/edge_detec.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vedge_detec_vlg_tst
+Z13 !s100 M0KDTKTO0MeGOKMmc]ELK3
+Z14 IfFG`j<WCQHm5cOXC?khhi3
+Z15 VM]Adke;<3`VjBY^V9SJ?L3
+R4
+Z16 w1447922816
+Z17 8D:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/edge_detec.vt
+Z18 FD:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/edge_detec.vt
+L0 28
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|D:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/edge_detec.vt|
+R10
+Z20 !s108 1449040746.656000
+Z21 !s107 D:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/edge_detec.vt|
+!i10b 1
+!s85 0
+!s101 -O0
+vfilter_medium
+Z22 !s100 cXYXehD8:YLiC5oFgZNJb3
+Z23 InZ<l9znjlIH`:bH0T`6F=0
+Z24 VSAk_DEfcjz>YS;l3Cnl_82
+R4
+Z25 w1447864845
+Z26 8D:/Prj/ICSo/Tuyen/tuyen_vga_v1/filter_medium.v
+Z27 FD:/Prj/ICSo/Tuyen/tuyen_vga_v1/filter_medium.v
+L0 16
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|D:/Prj/ICSo/Tuyen/tuyen_vga_v1/filter_medium.v|
+R10
+Z29 !s108 1449040746.156000
+Z30 !s107 D:/Prj/ICSo/Tuyen/tuyen_vga_v1/filter_medium.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfilter_medium_vlg_tst
+Z31 !s100 ;<72zdgi7h=0iZbYPzUff3
+Z32 If0LdKd:F<b>4zWX_PNo^`0
+Z33 V]b5K00C8J_oVniOc:PW8f3
+R4
+Z34 w1447852381
+Z35 8D:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/filter_medium.vt
+Z36 FD:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/filter_medium.vt
+L0 28
+R8
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|D:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/filter_medium.vt|
+R10
+Z38 !s108 1449040746.390000
+Z39 !s107 D:/Prj/ICSo/Tuyen/tuyen_vga_v1/simulation/modelsim/filter_medium.vt|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_clk
+Z40 IDVX^;Q0a>l6UGZ8eld<OK1
+Z41 VdW6OUCFCbPi<_J31192Zg2
+R4
+Z42 w1449040600
+Z43 8E:/test_clk.v
+Z44 FE:/test_clk.v
+L0 2
+R8
+r1
+31
+R10
+!i10b 1
+Z45 !s100 4e5HWZ9bmJRWGM^V06TQ63
+!s85 0
+Z46 !s108 1449040747.124000
+Z47 !s107 E:/test_clk.v|
+Z48 !s90 -reportprogress|300|-work|work|E:/test_clk.v|
+!s101 -O0
+vtest_clk_tb
+!i10b 1
+!s100 fRnncKOJIFc_3@2G4DFeX1
+Iii16EU[nLF>ZY?TD_bJ0N1
+VmU1UOG@gD;NVjM4:;3PTU3
+R4
+w1449040584
+8E:/test_clk_tb.v
+FE:/test_clk_tb.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1449040747.499000
+!s107 E:/test_clk_tb.v|
+!s90 -reportprogress|300|-work|work|E:/test_clk_tb.v|
+!s101 -O0
+R10

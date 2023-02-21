@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project mem_test_v2 ****
+
+make all 
+Info: Building ../mem_test_v2_bsp/
+make --no-print-directory -C ../mem_test_v2_bsp/
+[BSP build complete]
+[mem_test_v2 build complete]
+
+**** Build Finished ****

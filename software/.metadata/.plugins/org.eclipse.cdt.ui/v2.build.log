@@ -1,0 +1,7 @@
+
+**** Clean-only build of configuration Nios II for project v2 ****
+
+make clean 
+[v2 clean complete]
+
+**** Build Finished ****
